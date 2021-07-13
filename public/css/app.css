@@ -82,7 +82,7 @@ main .cards .card .card-content {
 
 main .cards .card .card-content img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: 100% 0%;
@@ -114,5 +114,83 @@ main .btn-current-series {
 
 main .btn-current-series a {
   margin-top: -100px;
+}
+
+footer {
+  background-image: url("/img/footer-bg.jpg");
+}
+
+footer .section-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+}
+
+footer .section-links .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .section-links .links .list-items {
+  margin-right: 20px;
+}
+
+footer .section-links .links .list-items h3 {
+  color: white;
+  text-transform: uppercase;
+}
+
+footer .section-links .links .list-items ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+footer .section-links .links .list-items ul li a {
+  color: #afafaf;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+footer .section-links img {
+  width: 400px;
+}
+
+footer .section-sign {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #303030;
+  padding: 10px 0;
+}
+
+footer .section-sign .bottom-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .section-sign .bottom-links .button a {
+  padding: 10px;
+  border: 2px solid #0E7CEC;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer .section-sign .bottom-links .socials {
+  display: flex;
+  align-items: center;
+}
+
+footer .section-sign .bottom-links .socials img,
+footer .section-sign .bottom-links .socials h3 {
+  padding: 10px;
+}
+
+footer .section-sign .bottom-links .socials h3 {
+  text-transform: uppercase;
+  color: #0E7CEC;
 }
 
