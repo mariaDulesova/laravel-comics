@@ -1,4 +1,56 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@300;
+
+400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  font-family: "Oswald", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+nav .wrap {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .wrap .menu-items {
+  display: flex;
+  align-items: center;
+}
+
+nav .wrap .menu-items li {
+  padding: 0 10px;
+}
+
+nav .wrap .menu-items li a {
+  color: #303030;
+  text-transform: uppercase;
+}
+
+nav .wrap .menu-items li:hover a {
+  color: #0E7CEC;
+}
+
+.jumbotron {
+  height: 400px;
+  background-position: center top;
+  background-size: 100%;
+  background-image: url("/img/jumbotron.jpg");
 }
 

@@ -1,0 +1,29 @@
+nav{
+   margin:20px 0; 
+   .wrap {
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+        .menu-items{
+            display: flex;
+            align-items: center;
+            li{
+                padding: 0 10px;
+                a {
+                    color: $bg-light-secondary;
+                    text-transform: uppercase;
+                }
+                &:hover a{
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+.jumbotron {
+    height: 400px;
+    background-position: center top;
+    background-size: 100%;
+    background-image: url('/img/jumbotron.jpg');
+}

@@ -1,4 +1,6 @@
-//
-body {
-background-color: red;
-}
+
+@import 'partials/common';
+@import 'partials/variables';
+@import 'partials/header';
+
+
