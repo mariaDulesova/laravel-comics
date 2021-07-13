@@ -1,6 +1,6 @@
 <header>
     <nav>
-        <div class="wrap">
+        <div class="wrap d-flex">
             <img src='{{asset('img/dc-logo.png')}}' alt="Logo">
             <ul class="menu-items">
                 <li><a href="#">Characters</a></li>
